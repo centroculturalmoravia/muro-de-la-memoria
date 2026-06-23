@@ -2,6 +2,13 @@ object_id,title,alt_text,featured,creator,description,source_url,period,year,med
 id_objeto,titulo,texto_alt,destacado,creador,descripcion,url_fuente,periodo,año,medio_genero,temas,fuente,credito,miniatura,dimensiones
 # Make it lower-case and avoid spaces. If you are referring to a local object please ensure the object_id matches the name of the file exactly (with or without the file extension – it doesn't matter).,# Please provide a title — this is required.,"# Describe what the image shows for screen readers. Mention the subject and key details. Avoid ""Image of..."" — describe the content directly. If empty, the title is used.","# Mark ""yes"" to feature on homepage",# The person or organization that created the original object.,"# A brief description of the object, shown on the objects page of your published site.",# Here you can include a IIIF manifest and Telar will do the rest of the work for you.,"# The historical period this object belongs to (e.g. ""Colonial period"", ""19th century"").",# In YYYY format — for filtering and sorting chronologically.,"# The medium or genre of the object (e.g. ""Map"", ""Photograph"", ""Engraving"").",# Comma-separated terms for gallery filtering,"# This will be overlaid over the viewer, unless you specify otherwise in _config.yml.","# Attribution line shown on the published site (e.g. ""Courtesy of UCSB Library"").","# Telar generates thumbnails automatically, but you can override this by specifying an image file in this column."
 "# Escríbelo en minúsculas y sin espacios. Si hace referencia a un objeto local, asegúrate de que el object_id coincida exactamente con el nombre del archivo (con o sin extensión; no importa).",# Incluye un título: este campo es obligatorio.,"# Describe lo que muestra la imagen para lectores de pantalla. Menciona el sujeto y los detalles clave. Evita ""Imagen de..."" — describe el contenido directamente. Si se deja vacío, se usa el título.","# Marca ""sí"" para destacar en la página de inicio",# La persona u organización que creó el objeto original.,"# Una breve descripción del objeto, que se muestra en la página de objetos de tu sitio publicado.",# Aquí puedes incluir un manifiesto IIIF y Telar se encargará del resto del trabajo.,"# El período histórico al que pertenece este objeto (por ejemplo, ""Período colonial"", ""Siglo XIX"").",# En formato AAAA — para filtrar y ordenar cronológicamente.,"# El medio o género del objeto (por ejemplo, ""Mapa"", ""Fotografía"", ""Grabado"").",# Términos separados por comas para filtrado de galería,"# Esto se mostrará encima del visor, a menos que indiques lo contrario en _config.yml.","# Línea de atribución que se muestra en el sitio publicado (por ejemplo, ""Cortesía de la Biblioteca de UCSB"").","# Telar genera miniaturas automáticamente, pero puedes anular este comportamiento especificando un archivo de imagen en esta columna."
+telar-placeholder,Telar placeholder,Telar placeholder,,Adelaida Ávila,,,,2026,,,,,,
+lasmonjas,Las monjas,Las monjas,,,,,,,,,,,,
+murocompleto,Muro_completo,Muro_completo,,,,,,,,,,,,
+nichocasa,nicho casa,nicho casa,,,,,,,,,,,,
+padrevicente,Padre vicente,Padre vicente,,,,,,,,,,,,
+procesodepaz,proceso de paz,proceso de paz,,,,,,,,,,,,
+procesodereubicaciondelmorro,proceso de reubicación del morro,proceso de reubicación del morro,,,,,,,,,,,,
 1950,1950,1950,,,,,,,,,,,,
 1960,1960,1960,,,,,,,,,,,,
 1970,1970,1970,,,,,,,,,,,,
@@ -10,10 +17,12 @@ id_objeto,titulo,texto_alt,destacado,creador,descripcion,url_fuente,periodo,año
 2000,2000,2000,,,,,,,,,,,,
 2010,2010,2010,,,,,,,,,,,,
 imagenprincipal,imagen principal,imagen principal,,,,,,,,,,,,
-lasmonjas,Las monjas,Las monjas,,,,,,,,,,,,
-murocompleto,Muro_completo,Muro_completo,,,,,,,,,,,,
-nichocasa,nicho casa,nicho casa,,,,,,,,,,,,
-padrevicente,Padre vicente,Padre vicente,,,,,,,,,,,,
-procesodepaz,proceso de paz,proceso de paz,,,,,,,,,,,,
-procesodereubicaciondelmorro,proceso de reubicación del morro,proceso de reubicación del morro,,,,,,,,,,,,
-telar-placeholder,Telar placeholder,Telar placeholder,,Adelaida Ávila,,,,2026,,,,,,
+relanzamiento-muro-de,Relanzamiento Muro de la memoria,Relanzamiento Muro de la memoria,,,"💛 El arte nos recuerda quiénes somos. El pasado viernes, 25 de julio, volvimos a celebrar la vida y la memoria con el relanzamiento del mural “Un lugar de la memoria”. Un espacio que no solo pertenece a la Institución Educativa Fe y Alegría Luis Amigó, sino también al barrio y a la ciudad entera. Porque en Moravia la historia se escribe y se pinta colectivamente. Gracias a todas las personas que hicieron posible que este sueño vuelva a brillar.
+
+📍 Te invitamos a visitarlo y recorrer cada fragmento en la fachada de la I.E. Fe y Alegría Luis Amigó.",https://www.youtube.com/watch?v=pbGx8PU_RSk,,2025,,,,,,
+un-lugar-de,Un lugar de la memoria,Un lugar de la memoria,,,"Un lugar de la memoria no es solo un muro, es una piel que guarda cicatrices y colores, un lienzo colectivo que habla con voces múltiples. Nos recuerda que la memoria no es estática: vive, se renueva, se teje en comunidad.
+
+Este mural es un tiempo extendido en forma de arte. Nació del encuentro entre quienes habitan el barrio y quienes lo sueñan cada día: estudiantes, docentes, familias, vecinos y vecinas, exalumnos y el equipo del Centro de Desarrollo Cultural de Moravia, junto al programa Divermentes de Comfenalco Antioquia, que ha hecho posible que la creatividad y el aprendizaje florezcan en nuestras jornadas escolares.
+
+Guiados por el artista Dubián Monsalve, dimos forma a un espacio que no solo recuerda, sino que reinventa el relato de Moravia: un barrio que se autoconstruyó y que, en su fuerza colectiva, sigue erigiéndose como ejemplo de transformación y vida.
+Un lugar de la memoria” es un homenaje a lo que fuimos, un espejo para reconocernos y una puerta abierta para quienes deseen conocer la historia de este territorio que aprendió a convertir la dificultad en arte.",https://www.youtube.com/watch?v=FbFW015wAcA,,2025,,,,,,

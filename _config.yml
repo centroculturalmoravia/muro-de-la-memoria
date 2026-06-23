@@ -2,16 +2,16 @@
 # https://telar.org
 
 # Site Settings
-title: "Telar"
-description: "Telar (Spanish for 'loom') is a static site generator built on Jekyll that weaves together IIIF images, text, and layered contextual information into interactive digital narrative exhibitions. <a href='https://github.com/UCSB-AMPLab/telar'>Telar</a> is a project of <a href='https://neogranadina.org'>Neogranadina</a>, the <a href='https://ampl.clair.ucsb.edu/'>UCSB Archives, Memory, and Preservation Lab</a>, and the <a href='https://liberalarts.utexas.edu/history/'>UT Archives, Mapping, and Pedagogy Lab</a>."
+title: "Muro de la memoria"
+description: "“Un lugar de la memoria” es un mural colectivo ubicado en la fachada de la Institución Educativa Fe y Alegría Luis Amigó, en el corazón del barrio Moravia, Medellín. A través de nichos artísticos construidos con técnicas como mosaico, piedra, fotografía y cerámica, esta obra teje —a modo de línea de tiempo— los hitos que han marcado la historia de este territorio desde la década de 1950 hasta hoy.\n\nMás que una obra artística, es un ejercicio de memoria barrial y de reconocimiento colectivo. Cada fragmento guarda una voz, una mirada y un recuerdo que nos habla de Moravia como un barrio autoconstruido, creativo y profundamente vivo."
 url: "https://centroculturalmoravia.github.io"
 baseurl: "/muro-de-la-memoria"
-author: ""
-email: ""
-telar_theme: "trama" # Options: trama, paisajes, neogranadina, santa-barbara, austin, or custom
+author: "Centro de Desarrollo Cultural de Moravia"
+email: "comunicaciones@centroculturalmoravia.org"
+telar_theme: "austin"
 logo: ""
-telar_language: "en" # Options: "en" (English), "es" (Español)
-collection_mode: false # Set to true to show objects first with large thumbnails and stories below with small thumbnails (collection-first homepage)
+telar_language: es
+collection_mode: false
 
 # Story Interface Settings
 story_interface:
@@ -30,7 +30,7 @@ collection_interface:
 # Story Protection (optional)
 # Stories with protected=yes in project.csv will be encrypted.
 # Viewers need this key to unlock protected stories.
-story_key: "test"
+story_key: test
 
 # Google Sheets Integration (optional)
 # Manage content via Google Sheets instead of editing CSV files directly.

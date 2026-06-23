@@ -1,5 +1,45 @@
-step,object,page,x,y,zoom,clip_start,clip_end,loop,alt_text,question,answer,layer1_button,layer1_content,layer2_button,layer2_content
-#,object_id from the objects tab,for multi-page items,horizontal position 0-1 (0.5 = center),vertical position 0-1 (0.5 = center),(1.0 = full image),"Start time for video/audio clips, e.g. ""1:30"" (m:ss) or ""90"" (seconds)",End time for video/audio clips,yes to loop the clip,"Describe what is visible in this zoomed view for screen readers. If empty, the object's image description is used.",Heading for this step,Brief 1-2 sentence text,"Optional button text (default: ""Learn more"")","Panel content: write text here, paste markdown, or enter path to .md file (e.g. your-story/file.md)","Optional second button text (default: ""Go deeper"")","Second panel: write text here, paste markdown, or enter path to .md file"
-1,telar-placeholder,,,,,,,,,question,answer,,,,
-2,telar-placeholder,,,,,,,,,question,answer,,,,
-3,telar-placeholder,,,,,,,,,question,answer,,,,
+step,object,x,y,zoom,page,question,answer,alt_text,layer1_button,layer1_content,layer2_button,layer2_content,clip_start,clip_end,loop
+paso,objeto,x,y,zoom,pagina,pregunta,respuesta,texto_alt,boton1,contenido1,boton2,contenido2,inicio_clip,fin_clip,bucle
+1,imagenprincipal,0.501661020747203,0.494091721741576,2.26125,,¿Cuál es la historia de Moravia?,"Esta historia está contada a través de imágenes, materiales, recuerdos y voces que se entrelazan en “Un lugar de la memoria”, un mural colectivo ubicado en la fachada de la Institución Educativa Fe y Alegría Luis Amigó.
+
+A manera de línea de tiempo, sus nichos artísticos narran los momentos que han marcado al barrio desde la década de 1950 hasta la actualidad. Cada mosaico, piedra, fotografía y pieza de cerámica aporta una parte del relato, convirtiendo el mural en una memoria visible que permite recorrer la historia de un territorio construido por su propia comunidad.",,,,,,,,
+2,imagenprincipal,0.1544600174833725,0.5154382930357243,2.25,,¿Quiénes tejieron este relato colectivo?,"Detrás de cada fragmento del mural hay una comunidad entera. Estudiantes, docentes, familias, exalumnos, vecinos y gestores culturales participaron en un proceso que comenzó en 2019 con talleres de memoria donde se identificaron los hechos, personajes y transformaciones que merecían ser recordados.
+
+El proyecto nació gracias al trabajo conjunto entre la Institución Educativa Fe y Alegría Luis Amigó, el Centro de Desarrollo Cultural de Moravia y el programa Divermentes de Comfenalco Antioquia, bajo la orientación del artista Dubián Monsalve. Así, el mural se convirtió en un gran telar comunitario donde cada persona aportó una hebra para construir la historia común del barrio.",,,,,,,,
+3,imagenprincipal,0.8180981814626685,0.44067369600645856,3.1729577464788736,,¿Por qué este mural sigue vivo hoy?,"answer“Un lugar de la memoria” es mucho más que una obra artística. Es un homenaje a la capacidad de transformación de Moravia y un espacio para reconocerse en el pasado, comprender el presente e imaginar el futuro.
+
+Tras su inauguración en 2020, el paso del tiempo hizo necesaria una restauración que se llevó a cabo en 2025. Este nuevo proceso, realizado nuevamente de manera colectiva, incorporó técnicas de mayor durabilidad para asegurar que las historias allí contenidas continúen acompañando a las próximas generaciones.
+
+Hoy, el mural permanece como un espejo de la comunidad, una puerta abierta para quienes desean conocer su historia y una prueba de que la memoria también puede construirse con arte, participación y esperanza.",,Saber más,blank_template-saber-mas.md,,,,,
+4,un-lugar-de,0.5,0.5,1,,Historia un lugar de la memoria,"Un lugar de la memoria no es solo un muro, es una piel que guarda cicatrices y colores, un lienzo colectivo que habla con voces múltiples. Nos recuerda que la memoria no es estática: vive, se renueva, se teje en comunidad.
+
+Este mural es un tiempo extendido en forma de arte. Nació del encuentro entre quienes habitan el barrio y quienes lo sueñan cada día: estudiantes, docentes, familias, vecinos y vecinas, exalumnos y el equipo del Centro de Desarrollo Cultural de Moravia, junto al programa Divermentes de Comfenalco Antioquia, que ha hecho posible que la creatividad y el aprendizaje florezcan en nuestras jornadas escolares.
+
+Guiados por el artista Dubián Monsalve, dimos forma a un espacio que no solo recuerda, sino que reinventa el relato de Moravia: un barrio que se autoconstruyó y que, en su fuerza colectiva, sigue erigiéndose como ejemplo de transformación y vida.
+
+“Un lugar de la memoria” es un homenaje a lo que fuimos, un espejo para reconocernos y una puerta abierta para quienes deseen conocer la historia de este territorio que aprendió a convertir la dificultad en arte.",,,,,,0,289.84140393537416,true
+5,murocompleto,0.5,0.5,1,,Iniciemos entonces este recorrido por la historia…,"La historia de Moravia se cuenta en fragmentos, en voces que se entrelazan y en imágenes que guardan memorias. Cada nicho de este mural es una puerta hacia un momento clave de este territorio autoconstruido. Acompáñanos a descubrirlos, uno a uno, y a recorrer la línea de tiempo que da forma a lo que somos hoy.",,,,,,,,
+6,1950,0.5,0.5,1,,1950 - Llegada de los primeros pobladores,"Es en esta época cuando comienza la etapa inicial de poblamiento del barrio que conoceremos después como Moravia. Los primeros pobladores se ubicaron a orillas del río Medellín, en un terreno paralelo a la antigua vía del Ferrocarril de Antioquia,  caracterizado por una vegetación espesa con monte y rastrojo, que dificultaba las labores de construcción de las primeras viviendas. 
+
+Este sector inicial de acogida, al que llega principalmente población campesina desplazada de sus tierras como consecuencia de la violencia bipartidista, sería conocido como Fidel Castro o El Zancudo.
+
+Imagen: Desplazamiento de la población campesina hacia la ciudad en busca de nuevas oportunidades/Ilustración de Dubián Monsalve.",,,,,,,,
+7,1960,0.5,0.5,1,,1960 - Primeras viviendas,"Las primeras viviendas, conocidas como ranchos o tugurios, eran autoconstruidas mediante  la técnica del bahareque o el aprovechamiento de materiales de desecho como plástico, cartón, madera y latas. Estas construcciones se ubicaban de manera  lineal, a lado y lado de la vía férrea, separadas entre sí  por extensiones de rastrojo.  
+
+En esta década se intensifica el proceso de poblamiento con la llegada de nuevas familias.
+
+Imagen: Esta imagen está basada en la fotografía panorámica del Centro de Memoria Barrial, tomada aproximadamente entre 1967 y 1969, donde se puede observar en la parte inferior la Universidad de Antioquia, luego el predio que ocupa hoy el Parque Norte y más arriba el predio donde se ubicaron las primeras viviendas de Moravia.",,Nicho Casa en El Morro,blank_template-nicho-casa-en.md,,,,,
+8,padrevicente,0.5,0.5,1,,Padre Vicente Mejía,"En la década del 60 inició el trabajo con la comunidad el padre Vicente Mejía, seguidor y practicante de la Teología de la Liberación, aquella corriente de la iglesia Católica que asumió una opción preferencial por los pobres para intentar transformar las profundas desigualdades sociales de América Latina.   
+
+En coherencia con este principio, el padre Vicente tuvo un significativo protagonismo en la consolidación de una organización comunitaria solidaria orientada a la planificación popular del territorio que juntos estaban construyendo. Esta planificación incluía la ubicación de los ranchos y la priorización de espacios para  la edificación de  espacios comunes: caseta comunal, cancha, centros educativos y vías de acceso. 
+
+Se creó además el Comité Central de Tugurianos (1968), una iniciativa solidaria para defenderse del desalojo y mejorar sus condiciones de vida en el territorio.
+
+Imagen: Pintura basada en fotografía de Giovanna Pezzotti (1968).",,,,,,,,
+9,1970,0.4975085873153385,0.49564561560031695,0.9,,1970 - Formación del morro de basura / Fuerza comunitaria," En 1977, por determinación de la Alcaldía de Medellín, una parte del barrio Moravia fue habilitada para la disposición de los residuos sólidos de toda la ciudad, Aunque en principio, la intención era generar un relleno sanitario, lo que realmente se originó allí fue un basurero a cielo abierto, que funcionó hasta el año 1984, originando una formación compacta de basura que con el tiempo fue conocida como El Morro. 
+
+El Morro, que llegó a tener hasta 30 metros de altura, se convirtió en un lugar importante de trabajo a partir de las labores del reciclaje que ayudaron a crear todo un ecosistema económico alrededor de la basura. Con el tiempo los ranchos que eran usados inicialmente para el almacenamiento de materiales, fueron habilitados también como lugares de vivienda. 
+
+Aunque la disposición de basura en este lugar finalizó en el año 1984, su uso como espacio para vivir continuó, consolidando El Morro como un sector más de Moravia. 
+
+Imagen: Pintura basada en fotografía de Anne Fischel (1975).",,Las monjas,blank_template-step9-layer1.md,,,,,
